@@ -4,7 +4,7 @@ class DatabasePDO
     // Properti untuk koneksi database
     private $host = "localhost";
     private $username = "root";
-    private $password = "Merdeka.123";
+    private $password = "";
     private $dbName;
     public $pdo;
 
@@ -135,5 +135,5 @@ class DatabasePDO
 }
 
 // Membuat objek koneksi ke database
-$db = new DatabasePDO('logbook_magang');
+$db = new DatabasePDO('logbook_magang_rs');
 ?>

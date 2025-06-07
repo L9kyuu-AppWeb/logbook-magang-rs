@@ -1,5 +1,4 @@
 <?php
-session_start();
 $link = "$link_web/$req1";
 
 // Tangani filter tanggal melalui session
